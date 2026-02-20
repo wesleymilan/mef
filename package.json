@@ -1,0 +1,33 @@
+{
+  "name": "@wesleymilan/mef",
+  "version": "1.0.0",
+  "description": "Milan Error Format (MEF) - Standardized errors with unique codes for APIs, testing, and i18n",
+  "main": "index.js",
+  "bin": {
+    "mef": "./cli.js"
+  },
+  "scripts": {
+    "mef": "node cli.js",
+    "test": "node -e \"require('./index.js'); console.log('OK');\""
+  },
+  "keywords": [
+    "error",
+    "format",
+    "api",
+    "mef",
+    "milan",
+    "i18n",
+    "testing"
+  ],
+  "author": "Wesley Milan",
+  "license": "ISC",
+  "files": [
+    "index.js",
+    "cli.js",
+    "scanner.js",
+    "validator.js",
+    "README.md",
+    "AGENTS.md",
+    "examples/"
+  ]
+}
