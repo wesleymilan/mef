@@ -4,7 +4,7 @@
   "description": "Milan Error Format (MEF) - Standardized errors with unique codes for APIs, testing, and i18n",
   "main": "index.js",
   "bin": {
-    "mef": "./cli.js"
+    "mef": "cli.js"
   },
   "scripts": {
     "mef": "node cli.js",
